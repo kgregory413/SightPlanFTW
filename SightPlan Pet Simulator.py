@@ -8,7 +8,11 @@
 pet = {"name": "", "type": "", "age": 0, "hunger": 0, "toys": []}
 
 # pet toys data object
-petToys = {"cat": ["scratching post", "nerf gun", "release a fake mouse into the SightPlan office"], "dog": ["frisbee", "Felipe's shoe", "mark territory in the Work conference room"], "fish": ["hide and seek in coral", "jump through hoop", "splash"]}
+petToys = {"cat": ["scratching post", "nerf gun", "release a fake mouse into the SightPlan office"], 
+"dog": ["frisbee", "Felipe's shoe", "mark territory in the Work conference room"], 
+"fish": ["hide and seek in coral", "jump through a hoop", "swim in the kitchen sink"],
+"dragon": ["fly to Mordor", "make cloud art", "mortal kombat II"],
+"raccoon": ["raid the breakroom trash", "steal food from Felipe's desk", "climb through the vents"]}
 
 # Prompt for different options for pet type.
 def initPet():
