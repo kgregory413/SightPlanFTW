@@ -46,5 +46,6 @@ getPreviousQuarter
 previous_branch=alpha-$year-$qtr
 
 echo Comparing old branch $previous_branch to the new branch $branch_name !
+git commit -m
 git checkout $previous_branch
 git diff --name-only $previous_branch $branch_name
