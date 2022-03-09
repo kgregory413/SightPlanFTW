@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+git config --global user.name "kgregory413"
+git config --global user.email "kgregory413@gmail.com"
+
 git checkout master
 
 git pull
