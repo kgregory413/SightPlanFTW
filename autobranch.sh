@@ -33,6 +33,7 @@ branch_name=alpha-$year-$qtr
 
 git branch $branch_name
 git push
+git push --set-upstream origin $branch_name
 git checkout $branch_name
 
 echo Creating Sentinel File IAMALPHA !
