@@ -32,7 +32,6 @@ getQuarter
 branch_name=alpha-$year-$qtr
 
 git branch $branch_name
-git push
 git push --set-upstream origin $branch_name
 git checkout $branch_name
 
@@ -46,6 +45,6 @@ getPreviousQuarter
 previous_branch=alpha-$year-$qtr
 
 echo Comparing old branch $previous_branch to the new branch $branch_name !
-git commit -m
+git commit
 git checkout $previous_branch
 git diff --name-only $previous_branch $branch_name
