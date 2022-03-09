@@ -32,6 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          chmod +x ./SightPlanFTW/autobranch.sh
-          ./SightPlanFTW/autobranch.sh
+          chmod +x autobranch.sh
+          bash autobranch.sh
         shell: bash
